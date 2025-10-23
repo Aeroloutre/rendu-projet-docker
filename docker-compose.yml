@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16
+    container_name: postgres_rendu_projet
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: mydatabase
+    ports:
+      - "5000:5000"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+volumes:
+  db_data:
