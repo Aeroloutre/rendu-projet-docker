@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS items (
+CREATE TABLE items (
     id SERIAL PRIMARY KEY,
     name VARCHAR(255),
     size INT,
