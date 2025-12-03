@@ -1,0 +1,6 @@
+Voici mon projet Docker incluant :
+- Une base de donnée hébérgée sur Postgres
+- Un backend en Express
+- Un frontend simple en HTML avec un reverse proxy NginX
+
+Pour plus d'informations, consultez mon rapport !
