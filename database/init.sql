@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS items (
     name VARCHAR(255) NOT NULL,
-    description TEXT,
+    description TEXT
 );
 
 -- Insertion de données de test

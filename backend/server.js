@@ -25,7 +25,7 @@ app.get('/items', async (req, res) => {
     const items = await db.any('SELECT * FROM items');
     res.json(items);
   } catch (err) {
-    console.error('Database error:', err);
+    console.error('Database error:', err, err.stack);
     res.status(500).json({ error: 'Server error', details: err.message });
   }
 });

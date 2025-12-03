@@ -15,4 +15,4 @@ for image in "${IMAGES[@]}"; do
     docker push "$remote_tag"
 done
 
-export DOCKER_CONTENT_TRUST=0
+# Je n'arrive pas à signer les images, je les ai push sans signature ducoup...
